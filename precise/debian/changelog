@@ -1,29 +1,6 @@
-osrf-common (1.0.4-1~precise) precise; urgency=high
+osrf-common-prerelease (1.0.4-1~precise) precise; urgency=high
 
   * Prerelease 1.0.4-1
 
- -- Morgan Quigley <morgan@osrfoundation.org>  Tue, 22 Jan 2013 10:55:00 -0700
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 08 Mar 2013 05:00:00 -0700
 
-osrf-common (1.0.3) precise; urgency=high
-
-  * fix debian control file so that message generators run during build
-
- -- Morgan Quigley <morgan@osrfoundation.org>  Tue, 22 Jan 2013 10:55:00 -0700
-
-osrf-common (1.0.2) precise; urgency=high
-
-  * Add clamp terms for integrator to joint command message
-
- -- Morgan Quigley <morgan@osrfoundation.org>  Fri, 18 Jan 2013 14:40:00 -0700
-
-osrf-common (1.0.1) precise; urgency=high
-
-  * Fix identifier names in cmake find macro
-
- -- Morgan Quigley <morgan@osrfoundation.org>  Thu, 17 Jan 2013 18:35:00 -0700
-
-osrf-common (1.0.0) precise; urgency=high
-
-  * First try at release
-
- -- Morgan Quigley <morgan@osrfoundation.org>  Thu, 17 Jan 2013 17:31:00 -0700

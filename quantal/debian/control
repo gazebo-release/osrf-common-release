@@ -1,4 +1,4 @@
-Source: osrf-common
+Source: osrf-common-prerelease
 Standards-Version: 3.9.3
 Maintainer: Morgan Quigley <morgan@osrfoundation.org>
 Section: devel
@@ -6,7 +6,7 @@ Priority: extra
 Build-Depends: cmake, debhelper (>= 7.0.50~), ros-groovy-ros, ros-groovy-ros-comm
 Homepage: http://www.osrfoundation.org
 
-Package: osrf-common
+Package: osrf-common-prerelease
 Architecture: any
 Section: devel
 Priority: extra

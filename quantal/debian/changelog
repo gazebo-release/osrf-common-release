@@ -1,3 +1,9 @@
+osrf-common-prerelease (1.0.5-1~quantal) quantal; urgency=high
+
+  * Prerelease 1.0.5-1
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 08 Mar 2013 05:00:00 -0700
+
 osrf-common-prerelease (1.0.4-1~quantal) quantal; urgency=high
 
   * Prerelease 1.0.4-1

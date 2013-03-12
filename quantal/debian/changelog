@@ -1,3 +1,9 @@
+osrf-common (1.0.3-2~quantal) quantal; urgency=high
+
+  * use option to avoid catkin files inside packages
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 22 Jan 2013 13:55:00 -0700
+
 osrf-common (1.0.3-1~quantal) quantal; urgency=high
 
   * fix debian control file so that message generators run during build

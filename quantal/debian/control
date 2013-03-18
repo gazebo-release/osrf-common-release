@@ -11,5 +11,6 @@ Architecture: any
 Section: devel
 Priority: extra
 Depends: ros-groovy-ros-comm, ${misc:Depends}
+Conflicts: osrf-common-prerelease, osrf-common-nightly
 Description: Software and messages used in multiple OSRF projects
 Homepage: http://www.osrfoundation.org

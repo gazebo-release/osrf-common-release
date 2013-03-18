@@ -11,5 +11,6 @@ Architecture: any
 Section: devel
 Priority: extra
 Depends: ros-fuerte-ros-comm, ${misc:Depends}
+Conflicts: osrf-common, osrf-common-nightly
 Description: Software and messages used in multiple OSRF projects
 Homepage: http://www.osrfoundation.org

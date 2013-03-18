@@ -1,4 +1,4 @@
-Source: osrf-common
+Source: osrf-common-nightly
 Standards-Version: 3.9.3
 Maintainer: Morgan Quigley <morgan@osrfoundation.org>
 Section: devel
@@ -6,10 +6,11 @@ Priority: extra
 Build-Depends: cmake, debhelper (>= 7.0.50~), ros-fuerte-ros, ros-fuerte-ros-comm
 Homepage: http://www.osrfoundation.org
 
-Package: osrf-common
+Package: osrf-common-nightly
 Architecture: any
 Section: devel
 Priority: extra
 Depends: ros-fuerte-ros-comm, ${misc:Depends}
+Conflicts: osrf-common, osrf-common-prerelease
 Description: Software and messages used in multiple OSRF projects
 Homepage: http://www.osrfoundation.org

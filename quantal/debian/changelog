@@ -1,3 +1,9 @@
+osrf-common (1.0.6-1~quantal) quantal; urgency=high
+
+  * update to conflict with -nightly and -prerelease
+
+ -- Brian Gerkey <gerkey@osrfoundation.org>  Sat, 6 Apr 2013 19:29:37 -0700
+
 osrf-common (1.0.3-2~quantal) quantal; urgency=high
 
   * use option to avoid catkin files inside packages

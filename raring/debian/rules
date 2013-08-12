@@ -15,7 +15,7 @@ export DH_OPTIONS=-v
 
 override_dh_auto_configure:
 	# Pull in ROS configuration
-	. "/opt/ros/groovy/setup.sh" && \
+	. "/opt/ros/hydro/setup.sh" && \
 	dh_auto_configure -- \
 		-DCATKIN_BUILD_BINARY_PACKAGE="1"
 
@@ -23,7 +23,7 @@ override_dh_auto_build:
 	# This needs rosdep init but can not be executing here due to lack of root 
 	# perms in dh_build phase (run as pbuilder user). rosdep init should be 
 	# configured in a pbuilder hook (see relase-tools).
-	. "/opt/ros/groovy/setup.sh" && \
+	. "/opt/ros/hydro/setup.sh" && \
 	rosdep update && \
 	export ROS_PACKAGE_PATH=`pwd`:$$ROS_PACKAGE_PATH && \
 	dh_auto_build
@@ -31,7 +31,7 @@ override_dh_auto_build:
 
 override_dh_shlibdeps:
 	# Pull in ROS configuration
-	. "/opt/ros/groovy/setup.sh" && \
+	. "/opt/ros/hydro/setup.sh" && \
 	dh_shlibdeps
 
 override_dh_auto_test:

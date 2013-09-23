@@ -1,3 +1,9 @@
+osrf-common (1.1.0-1~raring) raring; urgency=high
+
+  * Catkinized version
+
+ -- Nate Koenig <nkoenig@osrfoundation.org>  Fri, 20 Sep 2013 08:21:00 -0700
+
 osrf-common (1.0.6-1~raring) raring; urgency=high
 
   * Release 1.0.6-1. First time for raring

@@ -1,16 +1,1 @@
-Source: osrf-common-prerelease
-Standards-Version: 3.9.3
-Maintainer: Morgan Quigley <morgan@osrfoundation.org>
-Section: devel
-Priority: extra
-Build-Depends: cmake, debhelper (>= 7.0.50~), ros-fuerte-ros, ros-fuerte-ros-comm
-Homepage: http://www.osrfoundation.org
-
-Package: osrf-common-prerelease
-Architecture: any
-Section: devel
-Priority: extra
-Depends: ros-fuerte-ros-comm, ${misc:Depends}
-Conflicts: osrf-common, osrf-common-nightly
-Description: Software and messages used in multiple OSRF projects
-Homepage: http://www.osrfoundation.org
+../../ubuntu/debian/control

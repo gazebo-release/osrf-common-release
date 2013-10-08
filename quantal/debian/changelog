@@ -2,7 +2,7 @@ osrf-common (1.1.0-1~quantal) quantal; urgency=high
 
   * Catkinized version
 
- -- Nate Koenig <nkoenig@osrfoundation.org>  Fri, 20 Sep 2013 08:21:00 -0700
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 8 Oct 2013 09:41:00 -0700
 
 osrf-common (1.0.6-1~quantal) quantal; urgency=high
 

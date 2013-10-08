@@ -3,7 +3,10 @@ Standards-Version: 3.9.3
 Maintainer: Morgan Quigley <morgan@osrfoundation.org>
 Section: devel
 Priority: extra
-Build-Depends: cmake, debhelper (>= 7.0.50~), ros-hydro-ros, ros-hydro-ros-comm
+Build-Depends: cmake
+ debhelper (>= 7.0.50~)
+ ros-hydro-ros
+ ros-hydro-ros-comm
 Homepage: http://www.osrfoundation.org
 
 Package: osrf-common
@@ -12,5 +15,7 @@ Section: devel
 Priority: extra
 Depends: ros-hydro-ros-comm, ${misc:Depends}
 Conflicts: osrf-common-prerelease, osrf-common-nightly
+Breaks:  drcsim (<= 3.0.0-1),
+         sandia-hand (<= 5.1.16-1)
 Description: Software and messages used in multiple OSRF projects
 Homepage: http://www.osrfoundation.org

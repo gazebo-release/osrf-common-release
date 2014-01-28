@@ -1,0 +1,18 @@
+Source: osrf-common-prerelease
+Standards-Version: 3.9.3
+Maintainer: Morgan Quigley <morgan@osrfoundation.org>
+Section: devel
+Priority: extra
+Build-Depends: cmake, debhelper (>= 7.0.50~), ros-hydro-ros, ros-hydro-ros-comm
+Homepage: http://www.osrfoundation.org
+
+Package: osrf-common-hydro-prerelease
+Architecture: any
+Section: devel
+Priority: extra
+Depends: ros-hydro-ros-comm, ${misc:Depends}
+Conflicts: osrf-common, 
+           osrf-common-nightly,
+           osrf-common-groovy-prerelease
+Description: Software and messages used in multiple OSRF projects - ROS Hydro
+Homepage: http://www.osrfoundation.org

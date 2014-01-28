@@ -7,10 +7,19 @@ Build-Depends: cmake, debhelper (>= 7.0.50~), ros-hydro-ros, ros-hydro-ros-comm
 Homepage: http://www.osrfoundation.org
 
 Package: osrf-common-prerelease
+Depends: osrf-common-hydro-prerelease, ${misc:Depends}
+Architecture: all
+Section: oldlibs
+Description: transitional dummy package
+  This is a transitional dummy package. It can safely be removed.
+
+Package: osrf-common-hydro-prerelease
 Architecture: any
 Section: devel
 Priority: extra
 Depends: ros-hydro-ros-comm, ${misc:Depends}
+Replaces: osrf-common-prerelease (<< 1.1.0-2~)
+Breaks: osrf-common-prerelease (<< 1.1.0-2~)
 Conflicts: osrf-common, osrf-common-nightly
 Description: Software and messages used in multiple OSRF projects
 Homepage: http://www.osrfoundation.org

@@ -1,4 +1,4 @@
-Source: osrf-common
+Source: osrf-common-nightly
 Standards-Version: 3.9.3
 Maintainer: Morgan Quigley <morgan@osrfoundation.org>
 Section: devel
@@ -6,14 +6,15 @@ Priority: extra
 Build-Depends: cmake, debhelper (>= 7.0.50~), ros-hydro-ros, ros-hydro-ros-comm
 Homepage: http://www.osrfoundation.org
 
-Package: osrf-common-hydro
+Package: osrf-common-hydro-nightly
 Architecture: any
 Section: devel
 Priority: extra
 Depends: ros-hydro-ros-comm, ${misc:Depends}
 Conflicts: osrf-common-groovy,
-           osrf-common-nightly,
+           osrf-common-hydro,
            osrf-common-hydro-prerelease,
-           osrf-common-groovy-prerelease
+           osrf-common-groovy-prerelease,
+           osrf-common-groovy-nightly
 Description: Software and messages used in multiple OSRF projects - ROS Hydro
 Homepage: http://www.osrfoundation.org

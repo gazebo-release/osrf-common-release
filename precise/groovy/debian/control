@@ -1,4 +1,4 @@
-Source: osrf-common
+Source: osrf-common-nightly
 Standards-Version: 3.9.3
 Maintainer: Morgan Quigley <morgan@osrfoundation.org>
 Section: devel
@@ -6,23 +6,24 @@ Priority: extra
 Build-Depends: cmake, debhelper (>= 7.0.50~), ros-groovy-ros, ros-groovy-ros-comm
 Homepage: http://www.osrfoundation.org
 
-Package: osrf-common
-Depends: osrf-common-groovy, ${misc:Depends}
+Package: osrf-common-nightly
+Depends: osrf-common-groovy-nightly, ${misc:Depends}
 Architecture: all
 Section: oldlibs
 Description: transitional dummy package
   This is a transitional dummy package. It can safely be removed.
 
-Package: osrf-common-groovy
+Package: osrf-common-groovy-nightly
 Architecture: any
 Section: devel
 Priority: extra
 Depends: ros-groovy-ros-comm, ${misc:Depends}
 Conflicts: osrf-common-hydro, 
-           osrf-common-nightly,
+           osrf-common-groovy,
            osrf-common-hydro-prerelease,
-           osrf-common-groovy-prerelease
-Replaces: osrf-common (<< 1.1.0-2~)
-Breaks: osrf-common (<< 1.1.0-2~)
+           osrf-common-groovy-prerelease,
+           osrf-common-hydro-nightly
+Replaces: osrf-common-nightly (<< 1.1.0-2~)
+Breaks: osrf-common-nightly (<< 1.1.0-2~)
 Description: Software and messages used in multiple OSRF projects
 Homepage: http://www.osrfoundation.org

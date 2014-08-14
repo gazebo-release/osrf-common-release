@@ -22,5 +22,7 @@ Conflicts: osrf-common,
            osrf-common-nightly,
            osrf-common-hydro-prerelease,
            osrf-common-groovy-prerelease
+Replaces: osrf-common-hydro-prerelease (<< 1.1.0-4)
+Breaks: osrf-common-hydro-prerelease (<< 1.1.0-4)
 Description: Software and messages used in multiple OSRF projects - ROS Hydro
 Homepage: http://www.osrfoundation.org

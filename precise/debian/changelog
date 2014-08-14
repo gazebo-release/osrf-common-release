@@ -1,3 +1,9 @@
+osrf-common-prerelease (1.1.0-5~precise) precise; urgency=medium
+
+  * osrf-common-prerelease 1.1.0-5 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 15 Aug 2014 01:42:14 +0200
+
 osrf-common-prerelease (1.1.0-4~precise) precise; urgency=medium
 
   * osrf-common-prerelease 1.1.0-4 release

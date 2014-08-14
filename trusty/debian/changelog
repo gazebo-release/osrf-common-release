@@ -1,5 +1,5 @@
-osrf-common-prerelease (1.1.0-2~trusty) trusty; urgency=high
+osrf-common-prerelease (1.1.0-4~trusty) trusty; urgency=medium
 
-  * Prerelease 1.1.0-2
+  * osrf-common-prerelease 1.1.0-4 release
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 27 Sep 2013 10:00:00 -0700
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 14 Aug 2014 20:47:12 +0200

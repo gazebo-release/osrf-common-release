@@ -36,6 +36,11 @@ override_dh_shlibdeps:
 	. "/opt/ros/indigo/setup.sh" && \
 	dh_shlibdeps
 
+override_dh_auto_install:
+	# We need ROS for genmsgs 
+	. "/opt/ros/indigo/setup.sh" && \
+	dh_auto_install
+
 override_dh_auto_test:
 	echo -- Skipping tests
 	#dh_auto_test

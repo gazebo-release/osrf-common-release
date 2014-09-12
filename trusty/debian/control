@@ -1,4 +1,4 @@
-Source: osrf-common-prerelease
+Source: osrf-common
 Standards-Version: 3.9.3
 Maintainer: Morgan Quigley <morgan@osrfoundation.org>
 Section: devel
@@ -10,12 +10,12 @@ Build-Depends: cmake,
                ros-indigo-genmsg
 Homepage: http://www.osrfoundation.org
 
-Package: osrf-common-prerelease
+Package: osrf-common
 Architecture: any
 Section: devel
 Priority: extra
 Depends: ros-indigo-ros-comm, ${misc:Depends}
-Conflicts: osrf-common, 
+Conflicts: osrf-common-prerelease, 
            osrf-common-nightly,
            osrf-common-indigo-prerelease,
            osrf-common-groovy-prerelease

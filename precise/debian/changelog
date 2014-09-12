@@ -1,3 +1,9 @@
+osrf-common (1.1.0-4~precise) precise; urgency=medium
+
+  * osrf-common 1.1.0-4 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 12 Sep 2014 14:36:15 -0500
+
 osrf-common (1.1.0-3~precise) precise; urgency=high
 
   * New split for groovy and hydro packages

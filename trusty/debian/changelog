@@ -1,5 +1,5 @@
-osrf-common (1.1.0-1~trusty) trusty; urgency=medium
+osrf-common (1.1.0-4~trusty) trusty; urgency=medium
 
-  * osrf-common 1.1.0-5 release
+  * osrf-common 1.1.0-4 release
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 15 Aug 2014 01:56:43 +0200
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 12 Sep 2014 14:36:14 -0500
